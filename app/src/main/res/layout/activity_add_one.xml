@@ -93,8 +93,9 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="22dp"
         android:ems="10"
-        android:inputType="textPersonName"
         android:hint="URL"
+        android:inputType="textPersonName"
+        android:minHeight="48dp"
         app:layout_constraintBottom_toBottomOf="@+id/tvImageURL"
         app:layout_constraintStart_toEndOf="@+id/tvImageURL"
         app:layout_constraintTop_toTopOf="@+id/tvImageURL" />
